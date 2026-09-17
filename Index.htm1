@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>JAC 3D | Impresiones 3D</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial;background:#07100a;color:white}
+header{padding:20px;text-align:center;background:#0b1d10;border-bottom:2px solid #39d353}
+.logo{font-size:35px;font-weight:bold}.logo span{color:#39d353}
+section{max-width:1000px;margin:auto;padding:60px 20px}
+.hero{text-align:center}
+h1{font-size:55px;margin:20px 0}
+.green{color:#39d353}
+p{color:#b9c9bc;font-size:18px;line-height:1.6}
+.btn{display:inline-block;padding:15px 25px;margin:10px;
+background:#39d353;color:#061008;text-decoration:none;
+border-radius:12px;font-weight:bold}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:#102016;border:1px solid #285b34;
+border-radius:18px;padding:25px;text-align:center}
+.icon{font-size:55px}
+.price{color:#39d353;font-size:22px;font-weight:bold}
+footer{text-align:center;padding:30px;background:#0b1d10}
+@media(max-width:700px){.grid{grid-template-columns:1fr}h1{font-size:42px}}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">JAC <span>3D</span></div>
+</header>
+
+<section class="hero">
+<p>🟢 IMPRESIONES 3D PERSONALIZADAS</p>
+<h1>Hazlo <span class="green">real</span> con JAC 3D</h1>
+<p>Llaveros, figuras, regalos y piezas personalizadas hechas mediante impresión 3D.</p>
+<a class="btn" href="#productos">Ver productos</a>
+<a class="btn" href="#contacto">Contactar</a>
+</section>
+
+<section id="productos">
+<h2>¿Qué hacemos?</h2>
+<div class="grid">
+
+<div class="card">
+<div class="icon">🔑</div>
+<h2>Llaveros 3D</h2>
+<p>Nombres, letras y diseños personalizados.</p>
+<div class="price">Desde 4 €</div>
+</div>
+
+<div class="card">
+<div class="icon">🎁</div>
+<h2>Regalos</h2>
+<p>Regalos originales personalizados en 3D.</p>
+<div class="price">Consultar</div>
+</div>
+
+<div class="card">
+<div class="icon">🧩</div>
+<h2>Piezas</h2>
+<p>Piezas y objetos hechos a medida.</p>
+<div class="price">Presupuesto</div>
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="card">
+<h2>¿Cómo pedir?</h2>
+<p>1️⃣ Cuéntanos tu idea.</p>
+<p>2️⃣ Preparamos el diseño y el precio.</p>
+<p>3️⃣ Imprimimos tu pieza.</p>
+</div>
+</section>
+
+<section id="contacto" class="hero">
+<h2>Contacta con JAC 3D</h2>
+<p>¿Tienes una idea para imprimir?</p>
+<a class="btn" href="https://wa.me/">💬 WhatsApp</a>
+</section>
+
+<footer>
+© 2026 JAC 3D · Impresiones 3D personalizadas
+</footer>
+
+</body>
+</html>
